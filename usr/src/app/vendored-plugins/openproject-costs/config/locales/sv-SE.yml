@@ -121,7 +121,7 @@ sv-SE:
   label_group_by_add: Lägg till grupperingsfält
   label_hourly_rate: Timpris
   label_include_deleted: Inkludera borttagna
-  label_work_package_filter_add: Lägg till arbetspaketsfilter
+  label_work_package_filter_add: Lägg till ärendesfilter
   label_kind: Typ
   label_less_or_equal: '<='
   label_log_costs: Logga enhetskostnader

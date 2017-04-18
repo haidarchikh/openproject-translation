@@ -16,7 +16,7 @@ sv-SE:
             fixed_version_id:
               task_version_must_be_the_same_as_story_version: måste vara samma som berättelsens version.
             parent_id:
-              parent_child_relationship_across_projects: "är ogiltig eftersom arbetspaketet '%{work_package_name}' är en backlog aktivitet och kan därför inte ha en förälder utanför det aktuella projektet."
+              parent_child_relationship_across_projects: "är ogiltig eftersom ärenden '%{work_package_name}' är en backlog aktivitet och kan därför inte ha en förälder utanför det aktuella projektet."
               type_must_be_one_of_the_following: 'Typen måste vara en av följande: %{type_names}.'
         sprint:
           cannot_end_before_it_starts: En sprint kan inte avslutas innan den startar.
@@ -92,7 +92,7 @@ sv-SE:
   label_burndown: Burndown
   label_column_in_backlog: Kolumn i backlog
   label_hours: timmar
-  label_work_package_hierarchy: Arbetspaketshierarki
+  label_work_package_hierarchy: Ärendeshierarki
   label_master_backlog: Master Backlog
   label_not_prioritized: inte prioriterad
   label_points: poäng

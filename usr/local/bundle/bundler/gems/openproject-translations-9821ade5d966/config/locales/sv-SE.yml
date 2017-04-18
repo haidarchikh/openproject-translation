@@ -298,8 +298,8 @@ sv-SE:
         encoded_token: Enterprise support token
       relation:
         delay: Fördröjning
-        from: ärenden
-        to: Relaterat arbetspaketet
+        from: ärende
+        to: Relaterat ärende
       status:
         is_closed: ärenden stängt
       journal:
@@ -479,7 +479,7 @@ sv-SE:
               only_active_priorities_allowed: måste vara aktiv.
             category:
               only_same_project_categories_allowed: Kategorin för ett ärenden
-                måste tillhöra samma projekt som arbetspaketet.
+                måste tillhöra samma projekt som ärenden.
               does_not_exist: Den angivna kategorin finns inte.
             estimated_hours:
               only_values_greater_or_equal_zeroes_allowed: must be >= 0.
@@ -523,7 +523,7 @@ sv-SE:
       custom_field: Anpassat fält
       group: Grupp
       category: Kategori
-      status: Arbetspaketstatus
+      status: Ärendestatus
       member: Medlem
       news: Nyheter
       project: Projekt
@@ -823,7 +823,7 @@ sv-SE:
   description_autocomplete: 'Det här fältet använder komplettera automatiskt. Medan
     du skriver rubriken på ett ärenden får du en lista över möjliga alternative.
     Välj ett med hjälp av piltangenterna och markera den med TAB eller ENTER. Alternativt
-    kan du ange arbetspaketets nummer direkt.
+    kan du ange ärenden nummer direkt.
 
 '
   description_available_columns: Tillgängliga kolumner
@@ -850,7 +850,7 @@ sv-SE:
   description_search: Sökfält
   description_select_work_package: Välj ärenden
   description_selected_columns: Markerade kolumner
-  description_sub_work_package: ärenden som är underarbetspaket av nuvarande
+  description_sub_work_package: ärenden som är underärende av nuvarande
   description_toc_toggle: Visa/Dölj innehållsförteckning
   description_wiki_subpages_reassign: Välj ny överordnad sida
   direction: Från vänster till höger
@@ -861,7 +861,7 @@ sv-SE:
         add_groups: Add new attribute groups
         rename_groups: Rename attributes groups
   enumeration_activities: Aktiviteter (tidredovisning)
-  enumeration_work_package_priorities: Arbetspaketsprioritering
+  enumeration_work_package_priorities: Ärendesprioritering
   enumeration_system_activity: Systemaktivitet
   enumeration_reported_project_statuses: Rapporterad projektstatus
   error_can_not_archive_project: Detta projekt kan inte arkiveras
@@ -883,9 +883,9 @@ sv-SE:
   error_pdf_export_too_many_columns: Too many columns selected for the PDF export.
     Please reduce the number of columns.
   error_token_authenticity: Unable to verify Cross-Site Request Forgery token.
-  error_work_package_done_ratios_not_updated: Arbetspaketets andel avklarat är inte
+  error_work_package_done_ratios_not_updated: Ärendes andel avklarat är inte
     uppdaterat.
-  error_work_package_not_found_in_project: Arbetspaketet hittades inte eller hör inte
+  error_work_package_not_found_in_project: Ärende hittades inte eller hör inte
     till detta projekt
   error_must_be_project_member: måste vara projektmedlem
   error_no_default_work_package_status: Inget standardvärde för status för ärenden
@@ -897,10 +897,10 @@ sv-SE:
   error_scm_command_failed: 'Ett fel uppstod när du försökte komma åt versionsarkivet:
     %{value}'
   error_scm_not_found: Den posten eller revision finns inte i versionsarkivet.
-  error_unable_delete_status: Arbetspaketsstatusen kan inte raderas eftersom det används
+  error_unable_delete_status: Ärendesstatusen kan inte raderas eftersom det används
     av minst ett ärenden.
-  error_unable_delete_default_status: Det går inte att radera standardvalet för arbetspaketsstatus.
-    Var god väl en annan arbetspaketsstatus som standardval innan du raderar den befintliga.
+  error_unable_delete_default_status: Det går inte att radera standardvalet för ärendesstatus.
+    Var god väl en annan ärendesstatus som standardval innan du raderar den befintliga.
   error_unable_to_connect: Kan inte ansluta (%{value})
   error_unable_delete_wiki: Unable to delete the wiki page.
   error_unable_update_wiki: Unable to update the wiki page.
@@ -925,7 +925,7 @@ sv-SE:
     wiki_page: Wiki-sida redigerades
     work_package_closed: ärenden stängdes
     work_package_edit: ärenden redigerades
-    work_package_note: Anteckning lades till arbetspaketet
+    work_package_note: Anteckning lades till ärenden
   export:
     format:
       atom: Atom
@@ -1027,7 +1027,7 @@ sv-SE:
   label_auth_source_new: Nya autentiseringsläge
   label_auth_source_plural: Autentiseringslägen
   label_authentication: Autentisering
-  label_available_project_work_package_categories: Tillgängliga arbetspaketkategorier
+  label_available_project_work_package_categories: Tillgängliga ärendekategorier
   label_available_project_boards: Available boards
   label_available_project_versions: Tillgängliga versioner
   label_available_project_repositories: Available repositories
@@ -1399,7 +1399,7 @@ sv-SE:
   label_type_plural: Typer
   label_type_default_new_projects: Type activated for new projects by default
   label_ui: Användargränssnitt
-  label_update_work_package_done_ratios: Uppdatera arbetspaketets andel avklarat
+  label_update_work_package_done_ratios: Uppdatera ärendens andel avklarat
   label_updated_time: Uppdaterad %{value} sen
   label_updated_time_at: "%{author} %{age}"
   label_updated_time_by: Uppdaterad av %{author} %{age} sen
@@ -1447,18 +1447,18 @@ sv-SE:
   label_work_package: ärenden
   label_work_package_added: ärenden lades till
   label_work_package_category_new: Ny kategori
-  label_work_package_category_plural: Arbetspaketkategorier
+  label_work_package_category_plural: Ärendekategorier
   label_work_package_hierarchy: Work package hierarchy
   label_work_package_new: Nya ärenden
   label_work_package_note_added: Anteckning lades till ärenden
   label_work_package_edit: Redigera ärenden %{name}
   label_work_package_plural: Ärenden
-  label_work_package_priority_updated: Arbetspaketets prioritet uppdaterad
-  label_work_package_status: Arbetspaketstatus
+  label_work_package_priority_updated: Ärendes prioritet uppdaterad
+  label_work_package_status: Ärendestatus
   label_work_package_status_new: Ny status
-  label_work_package_status_plural: Arbetspaketstatus
+  label_work_package_status_plural: Ärendestatus
   label_work_package_types: Work package types
-  label_work_package_updated: Arbetspaketet uppdaterat
+  label_work_package_updated: ärende uppdaterat
   label_work_package_tracking: ärendehantering
   label_work_package_view_all: Visa alla ärenden
   label_work_package_view_all_assigned_to_me: Visa alla ärenden som tilldelats
@@ -1597,7 +1597,7 @@ sv-SE:
   notice_internal_server_error: Det uppstod ett fel på sidan du försökte komma åt.
     Om du fortsatt har problem kontakta administratören för %{app_title} för att få
     hjälp.
-  notice_work_package_done_ratios_updated: Arbetspaketets andel avklarat uppdaterat.
+  notice_work_package_done_ratios_updated: Ärendes andel avklarat uppdaterat.
   notice_locking_conflict: Informationen har uppdaterats av minst en annan användare
     under tiden.
   notice_locking_conflict_additional_information: Uppdatering(ar) kom från %{users}.
@@ -1914,7 +1914,7 @@ sv-SE:
     felaktiga inloggningsförsök
   setting_brute_force_block_minutes: Tiden som användaren är blockerad
   setting_cache_formatted_text: Cache-formaterad text
-  setting_column_options: Anpassa utseendet på arbetspaketslistan
+  setting_column_options: Anpassa utseendet på ärendeslistan
   setting_commit_fix_keywords: Nyckelord för fixande
   setting_commit_logs_encoding: Kodning av incheckningsmeddelanden
   setting_commit_logtime_activity_id: Aktivitet för tidrapport
@@ -1940,9 +1940,9 @@ sv-SE:
   setting_gravatar_default: Standard Gravatar bild
   setting_gravatar_enabled: Använda Gravatar användarikoner
   setting_host_name: Värdnamn
-  setting_work_package_done_ratio: Beräkna arbetspaketets andel avklarat med
+  setting_work_package_done_ratio: Beräkna ärendens andel avklarat med
   setting_work_package_done_ratio_field: Använd fältet ärenden
-  setting_work_package_done_ratio_status: Använd fältet arbetspaketsstatus
+  setting_work_package_done_ratio_status: Använd fältet ärendesstatus
   setting_work_package_done_ratio_disabled: Inaktivera (dölj andel klart)
   setting_work_package_list_default_columns: Visa som standard
   setting_work_package_list_summable_columns: Kan summeras
@@ -2028,7 +2028,7 @@ sv-SE:
     to resources in OpenProject.
   text_analyze: 'Vidare analys: %{subject}'
   text_are_you_sure: Är du säker?
-  text_are_you_sure_with_children: Ta bort ärenden och alla underarbetspaket?
+  text_are_you_sure_with_children: Ta bort ärenden och alla underärende?
   text_assign_to_project: Tilldela till projektet
   text_form_configuration: 'You can customize which attributes will be displayed in
     forms for issues of this type. You can freely group the attributes to reflect
@@ -2061,12 +2061,12 @@ sv-SE:
     be changed to an unwanted date.
   text_hint_disable_with_0: 'Notera: Inaktivera med 0'
   text_hours_between: Between %{min} and %{max} hours.
-  text_work_package_added: Arbetspaketet %{id} har rapporterats av %{author}.
+  text_work_package_added: ärende %{id} har rapporterats av %{author}.
   text_work_package_category_destroy_assignments: Ta bort kategoritilldelningar
   text_work_package_category_destroy_question: Vissa ärenden (%{count}) har tilldelas
     till denna kategori. Vad vill du göra?
   text_work_package_category_reassign_to: Tilldela ärenden till denna kategori
-  text_work_package_updated: Arbetspaketet %{id} har uppdaterats av %{author}.
+  text_work_package_updated: ärende %{id} har uppdaterats av %{author}.
   text_work_package_watcher_added: You have been added as a watcher to Work package
     %{id} by %{watcher_setter}.
   text_work_packages_destroy_confirmation: Är du säker du vill ta bort det valda ärenden(paketen)?
@@ -2428,7 +2428,7 @@ sv-SE:
   query_menu_item_for: Menyalternativet för frågan "%{title}"
   work_package:
     updated_automatically_by_child_changes: '_Uppdateras automatiskt genom att ändra
-      värdena för underarbetspaket %{child} _
+      värdena för underärende %{child} _
 
 '
     destroy:
