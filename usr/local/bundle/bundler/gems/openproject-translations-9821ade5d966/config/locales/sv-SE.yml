@@ -927,8 +927,7 @@ sv-SE:
     work_package_edit: ärenden redigerades
     work_package_note: Anteckning lades till arbetspaketet
   export:
-    format:
-      atom: Atom
+    format:      atom: Atom
       csv: CSV
       pdf: PDF
       pdf_with_descriptions: PDF med beskrivningar

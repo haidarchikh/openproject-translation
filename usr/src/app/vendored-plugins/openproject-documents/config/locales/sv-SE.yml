@@ -1,4 +1,4 @@
-xa:
+sv-SE:
   activerecord:
     models:
       document: Dokument
