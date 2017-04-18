@@ -49,5 +49,5 @@ rm /usr/src/app/vendored-plugins/reporting_engine/config/locales/sv-SE.yml
 wget -O /usr/src/app/vendored-plugins/reporting_engine/config/locales/sv-SE.yml https://github.com/haidarchikh/openproject-translation/raw/master/usr/src/app/vendored-plugins/reporting_engine/config/locales/sv-SE.yml
 
 # js
-rm /usr/src/app/app/assets/javascripts/locales/sv-SE.js
-wget -O /usr/src/app/app/assets/javascripts/locales/sv-SE.js https://github.com/haidarchikh/openproject-translation/raw/master/usr/src/app/app/assets/javascripts/locales/sv-SE.js
+rm /usr/src/app/app/assets/javascripts/locales/sv.js
+wget -O /usr/src/app/app/assets/javascripts/locales/sv.js https://github.com/haidarchikh/openproject-translation/raw/master/usr/src/app/app/assets/javascripts/locales/sv.js
