@@ -33,3 +33,6 @@ wget -O /usr/src/app/vendored-plugins/openproject-reporting/config/locales/xa.ym
 # engine
 wget -O /usr/src/app/vendored-plugins/reporting_engine/config/locales/js-xa.yml https://github.com/haidarchikh/openproject-translation/raw/master/usr/src/app/vendored-plugins/reporting_engine/config/locales/js-xa.yml
 wget -O /usr/src/app/vendored-plugins/reporting_engine/config/locales/xa.yml https://github.com/haidarchikh/openproject-translation/raw/master/usr/src/app/vendored-plugins/reporting_engine/config/locales/xa.yml
+
+# js
+wget -O /usr/src/app/app/assets/javascripts/locales/xa.js https://github.com/haidarchikh/openproject-translation/raw/master/usr/src/app/app/assets/javascripts/locales/xa.js
