@@ -138,7 +138,7 @@ sv-SE:
   label_variable_cost_object: Variabla timpriser baserade på budget
   label_view_all_cost_objects: Visa alla budgetar
   label_yes: Ja
-  notice_cost_object_conflict: Arbetspaketen måste tillhöra samma projekt.
+  notice_cost_object_conflict: Ärenden måste tillhöra samma projekt.
   notice_no_cost_objects_available: Inga budgetar tillgängliga.
   notice_something_wrong: Ett fel inträffade. Försök igen.
   notice_successful_restore: Lyckad återställning.
