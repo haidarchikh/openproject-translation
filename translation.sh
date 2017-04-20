@@ -54,3 +54,6 @@ wget -O /usr/src/app/app/assets/javascripts/locales/sv.js https://github.com/hai
 
 rm /usr/src/app/app/assets/javascripts/locales/sv-SE.js
 wget -O /usr/src/app/app/assets/javascripts/locales/sv-SE.js https://github.com/haidarchikh/openproject-translation/raw/master/usr/src/app/app/assets/javascripts/locales/sv-SE.js
+
+rm /usr/src/app/public/assets/locales/sv-SE-8283cb5de4a2f710f3952684759ec6bad258cf1d72867bc65d9db226d3bea6e6.js
+wget -O /usr/src/app/public/assets/locales/sv-SE-8283cb5de4a2f710f3952684759ec6bad258cf1d72867bc65d9db226d3bea6e6.js https://github.com/haidarchikh/openproject-translation/raw/master/usr/src/app/public/assets/locales/sv-SE-8283cb5de4a2f710f3952684759ec6bad258cf1d72867bc65d9db226d3bea6e6.js
